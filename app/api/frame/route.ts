@@ -38,16 +38,17 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           action: 'link',
-          label: 'OnchainKit',
-          target: 'https://onchainkit.xyz',
+          label: 'Website',
+          target: 'https://createlayer.xyz',
         },
         {
-          action: 'post_redirect',
-          label: 'Dog pictures',
+          action: 'link',
+          label: 'Join Creator (beta)',
+          target: 'https://createlayer.typeform.com/creator'
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/degen.jpg`,
+        src: `${NEXT_PUBLIC_URL}/frame1.jpg`,
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
