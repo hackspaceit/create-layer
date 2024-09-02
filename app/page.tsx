@@ -5,12 +5,12 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Get & Claim Airdrop',
+      label: 'Learn More',
     },
     
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/banner.png`,
+    src: `${NEXT_PUBLIC_URL}/degen.jpg`,
     aspectRatio: '1.91:1',
   },
   
@@ -19,11 +19,11 @@ const frameMetadata = getFrameMetadata({
 
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
-  description: 'LFG',
+  title: 'Create Layer Frame',
+  description: 'A newer, simpler infrastructure for a newer phase of the internet.',
   openGraph: {
-    title: 'zizzamia.xyz',
-    description: 'LFG',
+    title: 'Create Layer',
+    description: 'A newer, simpler infrastructure for a newer phase of the internet.',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
   other: {
